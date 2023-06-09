@@ -6,6 +6,10 @@ export default {
             backgroundImage: {
                 "banner": "url('/src/assets/bannerautismo.jpg')",
             },
+            screens: {
+                'xl': { max: '580px' },
+                'xp': { min: '580px' }
+            }
         },
     },
     plugins: [],
