@@ -1,5 +1,6 @@
 import React from "react";
 import video from "../assets/video.mp4";
+import { Simbolo } from "./Simbolo";
 
 export const Main: React.FC = () => {
     return (
@@ -24,6 +25,7 @@ export const Main: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <Simbolo/>
         </main>
     );
 };
