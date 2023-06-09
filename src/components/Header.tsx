@@ -3,10 +3,10 @@ import autismoIcon from "../assets/autismoicon.png";
 
 export const Header: React.FC = () => {
     return (
-        <header className="w-[100vw] h-[80px] bg-neutral-100 flex items-center border-b-[1px] border-black">
+        <header className="fixed w-[100vw] h-[60px] backdrop-blur-sm flex items-center border-b-[1px] border-black">
             <div className="flex justify-start items-center">
                 <img
-                    className="ml-4 w-[60px] h-[60px]"
+                    className="ml-4 w-[50px] h-[50px]"
                     src={autismoIcon}
                     alt="Icone Autismo"
                 />

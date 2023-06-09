@@ -25,7 +25,7 @@ export const Main: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <Simbolo/>
+            <Simbolo />
         </main>
     );
 };
