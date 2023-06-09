@@ -3,15 +3,15 @@ import fita from "../assets/fita.png";
 
 export const Simbolo: React.FC = () => {
     return (
-        <div className="p-10 h-[420px] border-b-[1px] border-black">
+        <div className="p-10 h-[420px] border-b-[1px] flex flex-row-reverse xl:flex-col-reverse xl:h-[1000px] border-black">
             <figure className="bg-blue-500 flex items-center flex-col float-right w-[300px] rounded-xl">
                 <img className="h-[100%] p-3" src={fita} alt="Fita Autista" />
                 <div className="p-2 text-white">Fita da conscientização</div>
             </figure>
-            <div className="flex flex-col w-[67%] items-center justify-center h-[290px]">
-                <div className="flex items-center justify-center h-[100px] flex-col">
-                    <h1>
-                        <strong className="text-[40px]" id="fita">
+            <div className="flex w-[67%] xl:w-[100%] items-center justify-center xl:h-[100%] h-[290px]">
+                <div className="flex items-center justify-center h-[100%] xl:h-[300px] flex-col">
+                    <h1 className=''>
+                        <strong className="text-[40px] xl:text-[30px]" id="fita">
                             Oque é essa fita?
                         </strong>
                     </h1>
