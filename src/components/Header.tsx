@@ -15,8 +15,8 @@ export const Header: React.FC = () => {
                         <a className="border-b-2 border-blue-700" href="#oqueé">
                             <li>Oque é o autismo</li>
                         </a>
-                        <a className="border-b-2 border-blue-700" href="/">
-                            <li>Diagnóstico</li>
+                        <a className="border-b-2 border-blue-700" href="#fita">
+                            <li>Fita da conscientização</li>
                         </a>
                         <a className="border-b-2 border-blue-700" href="/">
                             <li>Características</li>

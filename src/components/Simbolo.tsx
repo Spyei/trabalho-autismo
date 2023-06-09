@@ -11,7 +11,7 @@ export const Simbolo: React.FC = () => {
             <div className="flex flex-col w-[67%] items-center justify-center h-[290px]">
                 <div className="flex items-center justify-center h-[100px] flex-col">
                     <h1>
-                        <strong className="text-[40px]">
+                        <strong className="text-[40px]" id="fita">
                             Oque é essa fita?
                         </strong>
                     </h1>

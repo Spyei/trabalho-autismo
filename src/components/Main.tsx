@@ -5,7 +5,7 @@ import { Simbolo } from "./Simbolo";
 export const Main: React.FC = () => {
     return (
         <main>
-            <div className="border-b-[1px] border-black h-[100vh]">
+            <div className="border-b-[1px] border-black h-[700px]">
                 <div className="w-[100vw] flex justify-center items-center flex-col">
                     <div className="w-[80vw] h-[250px] flex justify-center items-center">
                         <h1 className="flex justify-center items-center flex-col">
