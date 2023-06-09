@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
                 />
                 <nav className="flex w-[90vw] flex-row justify-end items-center">
                     <ul className="flex flex-row gap-8">
-                        <a className="border-b-2 border-blue-700" href="/">
+                        <a className="border-b-2 border-blue-700" href="#oqueé">
                             <li>Oque é o autismo</li>
                         </a>
                         <a className="border-b-2 border-blue-700" href="/">
