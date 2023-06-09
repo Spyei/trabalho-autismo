@@ -9,7 +9,7 @@ export const Simbolo: React.FC = () => {
                 <div className="p-2 text-white">Fita da conscientização</div>
             </figure>
             <div className="flex w-[67%] xl:w-[100%] items-center justify-center xl:h-[100%] h-[290px]">
-                <div className="flex items-center justify-center h-[100%] xl:h-[300px] flex-col">
+                <div className="flex items-center justify-center h-[100%] xl:h-[300px] mr-10 flex-col">
                     <h1 className=''>
                         <strong className="text-[40px] xl:text-[30px]" id="fita">
                             Oque é essa fita?

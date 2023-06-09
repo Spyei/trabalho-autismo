@@ -31,6 +31,9 @@ export const Menu: React.FC = () => {
                                 <li className="w-[200px] h-[50px] flex items-center justify-center">
                                     <a href="#fita">Fita da conscientização</a>
                                 </li>
+                                <li className="w-[200px] h-[50px] flex items-center justify-center">
+                                    <a href="#caracteristicas">Caracteristicas</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>

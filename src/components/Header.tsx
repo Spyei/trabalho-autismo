@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
                         <a className="border-b-2 border-blue-700" href="#fita">
                             <li>Fita da conscientização</li>
                         </a>
-                        <a className="border-b-2 border-blue-700" href="/">
+                        <a className="border-b-2 border-blue-700" href="#caracteristicas">
                             <li>Características</li>
                         </a>
                     </ul>
