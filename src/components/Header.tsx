@@ -22,6 +22,9 @@ export const Header: React.FC = () => {
                         <a className="border-b-2 border-blue-700" href="#caracteristicas">
                             <li>Características</li>
                         </a>
+                        <a className="border-b-2 border-blue-700" href="#marcos">
+                            <li>Marcos históricos</li>
+                        </a>
                     </ul>
                 </nav>
             </div>
