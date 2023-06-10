@@ -5,7 +5,7 @@ export const Menu: React.FC = () => {
     const [menu, setMenu] = useState<boolean>();
 
     return (
-        <nav className="flex items-center flex-col justify-center ">
+        <nav className="flex items-center flex-col w-[130px] justify-center ">
             <button
                 onClick={() => {
                     setMenu(!menu);

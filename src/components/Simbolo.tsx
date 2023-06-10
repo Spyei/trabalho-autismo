@@ -3,7 +3,7 @@ import fita from "../assets/fita.png";
 
 export const Simbolo: React.FC = () => {
     return (
-        <div className="p-10 h-[420px] border-b-[1px] flex flex-row-reverse xl:flex-col-reverse xl:h-[1000px] border-black">
+        <div className="p-10 h-[420px] items-center justify-center border-b-[1px] flex flex-row-reverse xl:flex-col-reverse xl:h-[1000px] border-black">
             <figure className="bg-blue-500 flex items-center flex-col float-right w-[300px] rounded-xl">
                 <img className="h-[100%] p-3" src={fita} alt="Fita Autista" />
                 <div className="p-2 text-white">Fita da conscientização</div>
