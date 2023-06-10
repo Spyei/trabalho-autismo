@@ -6,13 +6,13 @@ import { Marcos } from "./Marcos";
 export const Main: React.FC = () => {
     return (
         <main>
+            <div className="mb-[50px]" id="oqueé"></div>
             <section className="border-b-[1px] border-black xl:h-[600px] h-[700px]">
                 <div className="w-[100vw] flex justify-center items-center flex-col">
                     <div className="w-[80vw] h-[250px] flex justify-center items-center">
                         <h1 className="flex justify-center items-center flex-col">
                             <strong
                                 className="text-[40px] xl:text-[28px]"
-                                id="oqueé"
                             >
                                 Oque é o Autismo?
                             </strong>
@@ -32,7 +32,7 @@ export const Main: React.FC = () => {
             </section>
             <Simbolo />
             <Caracteristicas />
-            <Marcos/>
+            <Marcos />
         </main>
     );
 };

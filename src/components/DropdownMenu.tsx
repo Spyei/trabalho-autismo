@@ -10,11 +10,14 @@ export const Menu: React.FC = () => {
                 onClick={() => {
                     setMenu(!menu);
                 }}
+                onBlur={() => {
+                    setMenu(false)
+                }}
                 className="w-[30px] h-[30px] items-center flex justify-center mr-10"
             >
                 <img
                     className={`w-[60px] transition-all duration-300 h-[60px] ${
-                            menu ? "rotate-[270deg]" : "rotate-90"
+                        menu ? "rotate-[270deg]" : "rotate-90"
                     }`}
                     src={menuIcon}
                     alt="Menu Icon"
@@ -22,22 +25,42 @@ export const Menu: React.FC = () => {
             </button>
             <div
                 className={`absolute gap-2 rounded-xl top-[60px] border-black border-2 bg-neutral-300 right-[0px] transition-all duration-300 ${
-                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-0"
+                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-[0px]"
                 }`}
             >
                 <nav className="flex items-center justify-center flex-col">
                     <ul>
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
-                            <a href="#oqueé">Oque é o autismo</a>
+                            <a
+                                href="#oqueé"
+                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                            >
+                                Oque é o autismo
+                            </a>
                         </li>
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
-                            <a href="#fita">Fita da conscientização</a>
+                            <a
+                                href="#fita"
+                                className="p-2 w-[90%] flex items-center justify-center text-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                            >
+                                Fita da conscientização
+                            </a>
                         </li>
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
-                            <a href="#caracteristicas">Caracteristicas</a>
+                            <a
+                                href="#caracteristicas"
+                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                            >
+                                Caracteristicas
+                            </a>
                         </li>
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
-                            <a href="#marcos">Marcos Históricos</a>
+                            <a
+                                href="#marcos"
+                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                            >
+                                Marcos Históricos
+                            </a>
                         </li>
                     </ul>
                 </nav>
