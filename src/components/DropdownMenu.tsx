@@ -33,7 +33,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#oqueé"
-                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Oque é o autismo
                             </a>
@@ -41,7 +41,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#fita"
-                                className="p-2 w-[90%] flex items-center justify-center text-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center text-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Fita da conscientização
                             </a>
@@ -49,7 +49,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#caracteristicas"
-                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Caracteristicas
                             </a>
@@ -57,7 +57,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#marcos"
-                                className="p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Marcos Históricos
                             </a>
