@@ -25,7 +25,7 @@ export const Menu: React.FC = () => {
             </button>
             <div
                 className={`absolute gap-2 rounded-xl top-[60px] border-black border-2 bg-neutral-300 right-[0px] transition-all duration-300 ${
-                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-[0px]"
+                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-[0px] no-underline"
                 }`}
             >
                 <nav className="flex items-center justify-center flex-col">
@@ -33,7 +33,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#oqueé"
-                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="underline p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Oque é o autismo
                             </a>
@@ -41,7 +41,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#fita"
-                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center text-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="underline p-2 w-[90%] flex items-center justify-center text-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Fita da conscientização
                             </a>
@@ -49,7 +49,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#caracteristicas"
-                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="underline p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Caracteristicas
                             </a>
@@ -57,7 +57,7 @@ export const Menu: React.FC = () => {
                         <li className="w-[200px] h-[50px] flex items-center justify-center">
                             <a
                                 href="#marcos"
-                                className="border-b-2 border-blue-700 p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
+                                className="underline p-2 w-[90%] flex items-center justify-center rounded-lg focus:bg-neutral-400 transition-colors duration-300"
                             >
                                 Marcos Históricos
                             </a>
