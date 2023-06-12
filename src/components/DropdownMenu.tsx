@@ -25,7 +25,7 @@ export const Menu: React.FC = () => {
             </button>
             <div
                 className={`absolute gap-2 rounded-xl top-[60px] border-black border-2 bg-neutral-300 right-[0px] transition-all duration-300 ${
-                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-[0px] no-underline"
+                    menu ? "w-[200px]" : "w-[0px] text-[0px] border-[0px] no-underline invisible"
                 }`}
             >
                 <nav className="flex items-center justify-center flex-col">
