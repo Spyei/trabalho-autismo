@@ -7,7 +7,7 @@ function App() {
         <body className="overflow-x-hidden scroll-smooth">
             <Header />
             <Main />
-            <Footer/>
+            <Footer />
         </body>
     );
 }
