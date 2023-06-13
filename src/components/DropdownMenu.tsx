@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import menuIcon from "../assets/svg/arrow.svg";
 
 export const Menu: React.FC = () => {
     const [menu, setMenu] = useState<boolean>();
@@ -17,20 +16,22 @@ export const Menu: React.FC = () => {
             >
                 <div className="flex flex-col gap-1">
                     <div
-                        className={`transition-all duration-300 rounded-full h-[3px] bg-slate-800 ${
+                        className={`transition-all duration-100 rounded-full h-[3px] bg-slate-800 ${
                             menu ? "w-0" : "w-[20px]"
                         }`}
                     ></div>
                     <div
                         className={` transition-all duration-300 rounded-full h-[3px] bg-slate-800 ${
                             menu
-                                ? "rotate-[140deg] absolute w-[25px] right-4"
+                                ? "rotate-[140deg] absolute w-[25px] right-6"
                                 : "w-[20px]"
                         }`}
                     ></div>
                     <div
                         className={`transition-all duration-300 rounded-full h-[3px] bg-slate-800 ${
-                            menu ? "rotate-[40deg] absolute w-[25px] right-4" : "w-[20px]"
+                            menu 
+                                ? "rotate-[40deg] absolute w-[25px] right-6" 
+                                : "w-[20px]"
                         }`}
                     ></div>
                 </div>
