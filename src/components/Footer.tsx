@@ -27,6 +27,9 @@ export const Footer: React.FC = () => {
                     <img src={instagramIcon} alt="Github Icon" />
                 </button>
             </div>
+            <div className="flex items-center justify-center w-[100%]">
+                <span className="text-center">Desenvolvido pela turma do 1°A</span>
+            </div>
         </footer>
     );
 };
