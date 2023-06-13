@@ -10,13 +10,13 @@ export const Menu: React.FC = () => {
                     setMenu(!menu);
                 }}
                 onBlur={() => {
-                    setMenu(menu);
+                    setMenu(false);
                 }}
                 className="w-[30px] h-[30px] items-center flex justify-center mr-10"
             >
                 <div className="flex flex-col gap-1">
                     <div
-                        className={`transition-all duration-100 rounded-full h-[3px] bg-slate-800 ${
+                        className={`transition-all duration-300 rounded-full h-[3px] bg-slate-800 ${
                             menu ? "w-0" : "w-[20px]"
                         }`}
                     ></div>
