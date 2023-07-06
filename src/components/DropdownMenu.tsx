@@ -35,13 +35,6 @@ export const Menu: React.FC = () => {
                         }`}
                     ></div>
                 </div>
-                {/* <img
-                    className={`w-[60px] transition-all duration-300 h-[60px] ${
-                        menu ? "rotate-[270deg]" : "rotate-90"
-                    }`}
-                    src={menuIcon}
-                    alt="Menu Icon"
-                /> */}
             </button>
             <div
                 className={`absolute gap-2 rounded-xl top-[60px] border-black border-2 bg-neutral-300 right-[0px] transition-all duration-300 ${
